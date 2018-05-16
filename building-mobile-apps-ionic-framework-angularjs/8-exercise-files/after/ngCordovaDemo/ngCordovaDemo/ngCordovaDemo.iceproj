@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>585dc374-a08e-4262-bc8d-b8a2a9c315b4</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".abproject" />
+    <Content Include="app\barcode-scanner\barcode-scanner-ctrl.js" />
+    <Content Include="app\barcode-scanner\barcode-scanner.html" />
+    <Content Include="app\camera\camera-ctrl.js" />
+    <Content Include="app\camera\camera.html" />
+    <Content Include="app\device\device.html" />
+    <Content Include="app\device\device-ctrl.js" />
+    <Content Include="app\dialogs\dialogs-ctrl.js" />
+    <Content Include="app\dialogs\dialogs.html" />
+    <Content Include="app\layout\home.html" />
+    <Content Include="app\network\network-ctrl.js" />
+    <Content Include="app\network\network.html" />
+    <Content Include="app\vibration\vibration-ctrl.js" />
+    <Content Include="app\vibration\vibration.html" />
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="css\style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\ionic.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="app\app.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\css\ionic.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\css\ionic.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-animate.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-animate.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-resource.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-resource.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-sanitize.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-sanitize.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic-angular.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic-angular.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.bundle.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.bundle.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionic.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\ionicons.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-animation.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_action-sheet.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_animations.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_backdrop.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_badge.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_bar.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_button-bar.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_button.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_checkbox.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_form.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_grid.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_items.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_list.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_loading.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_menu.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_mixins.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_modal.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_platform.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_popup.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_progress.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_radio.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_range.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_reset.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_scaffolding.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_select.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_slide-box.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_split-pane.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_tabs.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_toggle.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_type.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_util.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_variables.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\version.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ngCordova\.bower.json" />
+    <Content Include="lib\ngCordova\.gitignore" />
+    <Content Include="lib\ngCordova\bower.json" />
+    <Content Include="lib\ngCordova\config\build.config.js" />
+    <Content Include="lib\ngCordova\config\karma.conf.js" />
+    <Content Include="lib\ngCordova\demo\app\.bowerrc" />
+    <Content Include="lib\ngCordova\demo\app\.gitignore" />
+    <Content Include="lib\ngCordova\demo\app\bower.json" />
+    <Content Include="lib\ngCordova\demo\app\config.xml" />
+    <Content Include="lib\ngCordova\demo\app\gulpfile.js" />
+    <Content Include="lib\ngCordova\demo\app\hooks\.gitignore" />
+    <Content Include="lib\ngCordova\demo\app\hooks\README.md" />
+    <Content Include="lib\ngCordova\demo\app\init.sh" />
+    <Content Include="lib\ngCordova\demo\app\ionic.project" />
+    <Content Include="lib\ngCordova\demo\app\package.json" />
+    <Content Include="lib\ngCordova\demo\app\README.md" />
+    <Content Include="lib\ngCordova\demo\app\scss\ionic.app.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\.gitignore" />
+    <Content Include="lib\ngCordova\demo\app\www\css\style.css" />
+    <Content Include="lib\ngCordova\demo\app\www\img\ionic.png" />
+    <Content Include="lib\ngCordova\demo\app\www\index.html" />
+    <Content Include="lib\ngCordova\demo\app\www\js\app.js" />
+    <Content Include="lib\ngCordova\demo\app\www\js\controllers.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\css\ionic.css" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\css\ionic.min.css" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\fonts\ionicons.eot" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\fonts\ionicons.svg" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\fonts\ionicons.ttf" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\fonts\ionicons.woff" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular-ui\angular-ui-router.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular-ui\angular-ui-router.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular-animate.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular-animate.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular-resource.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular-resource.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular-sanitize.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular-sanitize.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\angular.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\ionic-angular.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\ionic-angular.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\ionic.bundle.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\ionic.bundle.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\ionic.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\js\ionic.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionic.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionicons\ionicons.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionicons\_ionicons-animation.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionicons\_ionicons-font.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionicons\_ionicons-icons.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionicons\_ionicons-variables.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_action-sheet.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_animations.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_backdrop.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_badge.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_bar.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_button-bar.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_button.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_checkbox.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_form.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_grid.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_items.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_list.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_loading.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_menu.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_mixins.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_modal.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_platform.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_popup.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_progress.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_radio.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_range.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_reset.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_scaffolding.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_select.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_slide-box.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_split-pane.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_tabs.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_toggle.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_type.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_util.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\scss\_variables.scss" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ionic\version.json" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ngCordova\ng-cordova.js" />
+    <Content Include="lib\ngCordova\demo\app\www\lib\ngCordova\ng-cordova.min.js" />
+    <Content Include="lib\ngCordova\demo\app\www\README.md" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\menu.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\barcode.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\camera.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\device-motion.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\device-orientation.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\flashlight.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\geolocation.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\preferences.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\status-bar.html" />
+    <Content Include="lib\ngCordova\demo\app\www\templates\plugins\vibration.html" />
+    <Content Include="lib\ngCordova\demo\index.html" />
+    <Content Include="lib\ngCordova\dist\ng-cordova.js" />
+    <Content Include="lib\ngCordova\dist\ng-cordova.min.js" />
+    <Content Include="lib\ngCordova\gulpfile.js" />
+    <Content Include="lib\ngCordova\LICENSE" />
+    <Content Include="lib\ngCordova\package.json" />
+    <Content Include="lib\ngCordova\README.md" />
+    <Content Include="lib\ngCordova\src\module.js" />
+    <Content Include="lib\ngCordova\src\plugins\appAvailability.js" />
+    <Content Include="lib\ngCordova\src\plugins\barcodeScanner.js" />
+    <Content Include="lib\ngCordova\src\plugins\camera.js" />
+    <Content Include="lib\ngCordova\src\plugins\capture.js" />
+    <Content Include="lib\ngCordova\src\plugins\contacts.js" />
+    <Content Include="lib\ngCordova\src\plugins\device.js" />
+    <Content Include="lib\ngCordova\src\plugins\deviceMotion.js" />
+    <Content Include="lib\ngCordova\src\plugins\deviceOrientation.js" />
+    <Content Include="lib\ngCordova\src\plugins\dialogs.js" />
+    <Content Include="lib\ngCordova\src\plugins\file.js" />
+    <Content Include="lib\ngCordova\src\plugins\flashlight.js" />
+    <Content Include="lib\ngCordova\src\plugins\ga.js" />
+    <Content Include="lib\ngCordova\src\plugins\geolocation.js" />
+    <Content Include="lib\ngCordova\src\plugins\globalization.js" />
+    <Content Include="lib\ngCordova\src\plugins\keyboard.js" />
+    <Content Include="lib\ngCordova\src\plugins\localNotification.js" />
+    <Content Include="lib\ngCordova\src\plugins\module.js" />
+    <Content Include="lib\ngCordova\src\plugins\network.js" />
+    <Content Include="lib\ngCordova\src\plugins\pinDialog.js" />
+    <Content Include="lib\ngCordova\src\plugins\preferences.js" />
+    <Content Include="lib\ngCordova\src\plugins\push.js" />
+    <Content Include="lib\ngCordova\src\plugins\socialSharing.js" />
+    <Content Include="lib\ngCordova\src\plugins\spinnerDialog.js" />
+    <Content Include="lib\ngCordova\src\plugins\splashscreen.js" />
+    <Content Include="lib\ngCordova\src\plugins\sqlite.js" />
+    <Content Include="lib\ngCordova\src\plugins\statusbar.js" />
+    <Content Include="lib\ngCordova\src\plugins\toast.js" />
+    <Content Include="lib\ngCordova\src\plugins\vibration.js" />
+    <Content Include="lib\ngCordova\test\plugins\accelerometer.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\barcodeScanner.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\camera.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\compass.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\device.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\dialogs.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\file.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\geolocation.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\keyboard.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\network.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\preferences.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\splashscreen.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\toast.spec.js" />
+    <Content Include="lib\ngCordova\test\plugins\vibration.spec.js" />
+    <Content Include="app\layout\menu.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+    <Content Include="css\index.css" />
+    <Content Include="img\cordova.png" />
+    <Content Include="img\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\dialogs\" />
+    <Folder Include="app\camera\" />
+    <Folder Include="app\device\" />
+    <Folder Include="app\network\" />
+    <Folder Include="app\layout\" />
+    <Folder Include="app\barcode-scanner\" />
+    <Folder Include="app\vibration\" />
+    <Folder Include="app\spinnerdialog\" />
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="css\" />
+    <Folder Include="img\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\ionic\" />
+    <Folder Include="lib\ionic\css\" />
+    <Folder Include="lib\ionic\fonts\" />
+    <Folder Include="lib\ionic\js\" />
+    <Folder Include="lib\ionic\js\angular-ui\" />
+    <Folder Include="lib\ionic\js\angular\" />
+    <Folder Include="lib\ionic\scss\" />
+    <Folder Include="lib\ionic\scss\ionicons\" />
+    <Folder Include="app\" />
+    <Folder Include="lib\ngCordova\" />
+    <Folder Include="lib\ngCordova\config\" />
+    <Folder Include="lib\ngCordova\demo\" />
+    <Folder Include="lib\ngCordova\demo\app\" />
+    <Folder Include="lib\ngCordova\demo\app\hooks\" />
+    <Folder Include="lib\ngCordova\demo\app\scss\" />
+    <Folder Include="lib\ngCordova\demo\app\www\" />
+    <Folder Include="lib\ngCordova\demo\app\www\css\" />
+    <Folder Include="lib\ngCordova\demo\app\www\img\" />
+    <Folder Include="lib\ngCordova\demo\app\www\js\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\css\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\fonts\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\js\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular-ui\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\js\angular\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\scss\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ionic\scss\ionicons\" />
+    <Folder Include="lib\ngCordova\demo\app\www\lib\ngCordova\" />
+    <Folder Include="lib\ngCordova\demo\app\www\templates\" />
+    <Folder Include="lib\ngCordova\demo\app\www\templates\plugins\" />
+    <Folder Include="lib\ngCordova\dist\" />
+    <Folder Include="lib\ngCordova\src\" />
+    <Folder Include="lib\ngCordova\src\plugins\" />
+    <Folder Include="lib\ngCordova\test\" />
+    <Folder Include="lib\ngCordova\test\plugins\" />
+    <Folder Include="Plugins\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>
